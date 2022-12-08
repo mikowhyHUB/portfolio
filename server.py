@@ -9,9 +9,12 @@ def my_portfolio():
     return render_template('index.html')
 
 
-@app.route("/generic.html")
-def generic():
-    return render_template('generic.html')
+'''
+subpage for future improvements
+'''
+# @app.route("/generic.html")
+# def generic():
+#     return render_template('generic.html')
 
 
 def write_to_csv(data):
